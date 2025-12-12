@@ -29,7 +29,7 @@
        Sintaxe: clamp(minimo, ideal, maximo)
        A fonte escala suavemente entre o tamanho mínimo e máximo conforme a tela. */
     --fs-h1: clamp(1.8rem, 5vw, 2.5rem);
-    --fs-h2: clamp(1.5rem, 3vw, 2rem);
+    --fs-h2: clamp(1.5rem, 3vw, 1.9rem);
     --fs-body: clamp(1rem, 1vw + 0.5rem, 1.1rem);
 }
 
@@ -60,7 +60,7 @@ body {
 
 /* Navbar com efeito de vidro (Blur) */
 .navbar {
-    padding: 0.70rem 4%;
+    padding: 0.60rem 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,10 +77,13 @@ body {
     align-items: center;
     gap: 1rem;
 }
-
+.img-logo {
+    width: clamp(1.8rem, 3.5vw, 2.5rem);
+    height: auto;
+}
 .ifsp-logo {
     font-family: var(--font-tech);
-    color: var(--danger-color);
+    color: var(--accent-color);
     font-weight: bold;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
 }
@@ -142,6 +145,12 @@ h1#project-title {
     max-width: 60ch; /* Limita largura para leitura confortável (~60 caracteres) */
     margin-left: auto;
     margin-right: auto;
+}
+
+.teacher {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+    font-size: 0.9rem;
 }
 
 .cta-button {
