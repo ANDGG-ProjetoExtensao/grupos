@@ -95,13 +95,13 @@ Em Branch, selecione main e salve.
 
 O GitHub irá gerar o link exclusivo da página do seu grupo!
 
-⚠️ Importante
-Não faça Pull Requests alterando o conteúdo do site para este repositório de template. Cada grupo deve manter seu site hospedado em seu próprio Fork **E** na Hospedagem do Professor. Utilize este repositório apenas como base inicial.
-
-🎨 Personalização Avançada (Opcional)
+## ⚠️ Importante
+### Não faça Pull Requests alterando o conteúdo do site para este repositório de template. Cada grupo deve manter seu site hospedado em seu próprio Fork **E** na Hospedagem do Professor. Utilize este repositório apenas como base inicial.
+---
+## 🎨 Personalização Avançada (Opcional)
 Se desejar alterar as cores para combinar com a identidade visual específica do seu projeto, edite as Variáveis CSS no topo do arquivo style.css:
 
-CSS
+```CSS
 
 :root {
     /* Mude apenas os códigos Hexadecimais */
@@ -109,14 +109,16 @@ CSS
     --danger-color: #CB0C1F; /* Cor Secundária */
     --bg-color: #121212;     /* Fundo */
 }
-🚀 Tecnologias Utilizadas
+```
+
+## 🚀 Tecnologias Utilizadas
 HTML5 (Semântico)
 
 CSS3 (Flexbox, Grid Layout, CSS Variables, Clamp Functions)
 
 JavaScript (ES6+, Manipulação de DOM)
 
-🤝 Contribuição
+## 🤝 Contribuição
 Sinta-se à vontade para sugerir melhorias na estrutura do template através de Issues ou Pull Requests. Mantenha o código limpo e comentado!
 
 Desenvolvido para o IFSP - Engenharia da Computação
