@@ -74,6 +74,8 @@ const projectData = {
 };
 
 ```
+### Por favor não deem Merge das Branches de cada grupo na Main. Façam as alterações na Branch do ***SEU GRUPO*** e copiem o código da pasta, não alterem o template!!
+
 ## 🎨 Personalização Avançada (Opcional)
 Se desejar alterar as cores para combinar com a identidade visual específica do seu projeto, edite as Variáveis CSS no topo do arquivo style.css:
 ```bash
@@ -94,6 +96,7 @@ CSS3 (Flexbox, Grid Layout, CSS Variables, Clamp Functions)
 JavaScript (ES6+, Manipulação de DOM)
 
 ## 🤝 Contribuição
-Sinta-se à vontade para sugerir melhorias no template através de Pull Requests ou Issues. Mantenha o código limpo e comentado!
+Sinta-se à vontade para sugerir melhorias no template através de Issues. Mantenha o código limpo e comentado!
+Por favor não deem Merge das Branches de cada grupo na Main. Façam as alterações na Branch do ***seu grupo*** e copiem o código da pasta, não alterem o template!!
 
 Desenvolvido para o IFSP - Engenharia da Computação
