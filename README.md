@@ -28,7 +28,7 @@ O projeto foi desenvolvido com foco em **Clean Code**, alta performance e **Desi
 
 A estrutura foi pensada para separar lógica, estilo e conteúdo:
 
-```bash
+```
 /
 ├── index.html          # Estrutura base (NÃO É NECESSÁRIO EDITAR)
 ├── style.css           # Estilização global e variáveis de cor
@@ -39,22 +39,30 @@ A estrutura foi pensada para separar lógica, estilo e conteúdo:
         └── script.js   # Lógica de renderização (Não mexer)
 ```
 ## 🛠️ Como Utilizar (Guia Rápido)
-Para adaptar este template para o seu grupo, você não precisa saber HTML ou CSS avançado. Siga os passos abaixo:
+Para garantir que cada grupo tenha sua própria página separada sem alterar o template original, utilizaremos o fluxo de Fork.
 
-1. **Clone o Repositório**
-```bash
-git clone [https://seu-repositorio-aqui.git](https://seu-repositorio-aqui.git)
+1. Faça um Fork deste Repositório
+No canto superior direito desta página, clique no botão Fork. Isso criará uma cópia exata deste projeto na sua conta do GitHub. A partir de agora, você trabalhará nessa cópia.
+
+2. Clone o SEU Repositório
+Vá para o repositório que você acabou de criar (na sua conta) e faça o clone:
+
 ```
-2. **Adicione as Fotos:** Salve as fotos dos integrantes na pasta assets/images/.
 
-**Dica: Para o formato hexagonal ficar perfeito, utilize imagens com proporção quadrada (1:1).**
+# Substitua SEU_USUARIO pelo seu nome de usuário do GitHub
+git clone [https://github.com/SEU_USUARIO/grupos.git](https://github.com/SEU_USUARIO/grupos.git)
+```
+3. Adicione as Fotos
+Salve as fotos dos integrantes na pasta assets/images/.
 
-3. **Edite o Conteúdo (data.js):** Abra o arquivo assets/js/data.js em seu editor de código. Este arquivo contém um objeto JSON onde você define tudo.
+Dica: Para o formato hexagonal ficar perfeito, utilize imagens com proporção quadrada (1:1).
+
+4. Edite o Conteúdo (data.js)
+Abra o arquivo assets/js/data.js em seu editor de código. Este arquivo contém um objeto JSON onde você define tudo.
 
 Exemplo de edição:
-
-```bash
-Javascript
+```
+JavaScript
 
 const projectData = {
     title: "Nome do Seu Projeto",
@@ -72,13 +80,27 @@ const projectData = {
         // Adicione mais blocos {...} para mais integrantes
     ]
 };
-
 ```
-### Por favor não deem Merge das Branches de cada grupo na Main. Façam as alterações na Branch do ***SEU GRUPO*** e copiem o código da pasta, não alterem o template!!
 
-## 🎨 Personalização Avançada (Opcional)
+5. Coloque o site no ar (GitHub Pages)
+Após fazer o git push das suas alterações para o seu fork:
+
+Vá nas Settings (Configurações) do seu repositório.
+
+No menu lateral, clique em Pages.
+
+Em Source, selecione Deploy from a branch.
+
+Em Branch, selecione main e salve.
+
+O GitHub irá gerar o link exclusivo da página do seu grupo!
+
+⚠️ Importante
+Não faça Pull Requests alterando o conteúdo do site para este repositório de template. Cada grupo deve manter seu site hospedado em seu próprio Fork **E** na Hospedagem do Professor. Utilize este repositório apenas como base inicial.
+
+🎨 Personalização Avançada (Opcional)
 Se desejar alterar as cores para combinar com a identidade visual específica do seu projeto, edite as Variáveis CSS no topo do arquivo style.css:
-```bash
+
 CSS
 
 :root {
@@ -87,16 +109,14 @@ CSS
     --danger-color: #CB0C1F; /* Cor Secundária */
     --bg-color: #121212;     /* Fundo */
 }
-```
-## 🚀 Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 HTML5 (Semântico)
 
 CSS3 (Flexbox, Grid Layout, CSS Variables, Clamp Functions)
 
 JavaScript (ES6+, Manipulação de DOM)
 
-## 🤝 Contribuição
-Sinta-se à vontade para sugerir melhorias no template através de Issues. Mantenha o código limpo e comentado!
-Por favor não deem Merge das Branches de cada grupo na Main. Façam as alterações na Branch do ***seu grupo*** e copiem o código da pasta, não alterem o template!!
+🤝 Contribuição
+Sinta-se à vontade para sugerir melhorias na estrutura do template através de Issues ou Pull Requests. Mantenha o código limpo e comentado!
 
 Desenvolvido para o IFSP - Engenharia da Computação
