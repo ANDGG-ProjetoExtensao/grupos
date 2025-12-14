@@ -23,6 +23,11 @@ const projectData = {
     // Link para onde o botão "< Acessar Projeto />" irá redirecionar.
     // Pode ser o repositório (GitHub), o protótipo (Figma) ou o site publicado.
     projectLink: "https://projeto-grupo-x.herokuapp.com",
+    
+    // Cor de destaque (Accent Color).
+    // Altera a cor dos botões, bordas, cursores e efeitos de 'hover'.
+    // Sugestões: Verde IFSP (#32A041) | Vermelho IFSP (#CB0C1F) | Azul Tech (#2563eb)
+    accentColor: "#32A041", 
 
     // =========================================================================
     // SEÇÃO 2: INTEGRANTES DO GRUPO
